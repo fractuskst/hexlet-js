@@ -1,5 +1,5 @@
-import _ from "lodash";
+import lastNumber from "./src/index.js";
 
-console.log("Hello, Hexlet!");
+console.log("Вы ввели 2 числа");
 
-console.log(_.last(["one", "two"]));
+console.log(lastNumber(1, 2));
